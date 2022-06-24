@@ -1,0 +1,25 @@
+.tree {
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 1px 2px 5px 3px #dfdfdf;
+  padding: 1rem 0;
+}
+.tree__select-all {
+  align-items: center;
+  display: flex;
+  font-size: 0.875rem;
+  padding-left: 2.4rem;
+}
+
+.tree__select-all .spand {
+  margin-left: 2.5rem;
+}
+
+.tree__select-all .task {
+  align-items: center;
+  display: flex;
+}
+
+::ng-deep .mat-tree-node {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
